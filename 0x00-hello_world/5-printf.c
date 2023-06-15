@@ -8,6 +8,10 @@
 */
 int main(void)
 {
+<<<<<<< HEAD
 	printf("with proper grammar, but the outcome is a piece of art,\n");
+=======
+	puts("with proper grammar, but the outcome is a piece of art,");
+>>>>>>> f53d143c3a19584603bb441890b94a99c63bf441
 	return (0);
 }
