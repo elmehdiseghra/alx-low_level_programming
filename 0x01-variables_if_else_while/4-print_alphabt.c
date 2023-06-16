@@ -10,16 +10,19 @@
 
 int main(void)
 {
-	char ch = 'a';
+	int n = 97;
 
-	while (ch <= 'z')
+	while (n <= 122)
 	{
-		if (ch == 'e' || ch == 'q')
-			ch++;
-		putchar(ch);
-		ch++;
+		if (n == 101 || n == 113)
+		{
+			n++;
+			continue;
+		}
+		putchar(n);
+		n++;
 	}
-	purtchar('\n');
+	putchar('\n');
 
 	return (0);
 }
