@@ -1,11 +1,11 @@
 #include<stdio.h>
 
 /**
- * main - entry point.
+ * main - Entry point
  *
- * Description: print all alphabet letters except q and e.
+ * Description: print all alphabet letters except q and e
  *
- * Retun: Always 0 (Success).
+ * Return: Always 0 (Success)
 */
 
 int main(void)
@@ -17,8 +17,9 @@ int main(void)
 		if (ch == 'e' || ch == 'q')
 			ch++;
 		putchar(ch);
-		ch++
+		ch++;
 	}
-	putchar('\n');
+	purtchar('\n');
+
 	return (0);
 }
