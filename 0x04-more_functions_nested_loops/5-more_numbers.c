@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - nmbr fct
- * Bwave ICT file
+ * elmseg ICT file
  * Return: no return
  */
 
